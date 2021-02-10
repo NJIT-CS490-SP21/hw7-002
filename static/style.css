@@ -3,7 +3,19 @@ body {
     background-image: linear-gradient(black, grey,black);
     text-align: center;
 }
-
+.white{
+    color: white;
+}
+.eyesore {
+    background-image: linear-gradient(#FF66CC, #ffff00);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
 h1 {
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+}
+.title{
+    text-align: center;
 }
