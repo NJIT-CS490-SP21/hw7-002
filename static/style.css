@@ -22,3 +22,8 @@ h1 {
 .title{
     text-align: center;
 }
+
+h1:hover{
+    transform: scale(2);
+    background-color: gold;
+}
