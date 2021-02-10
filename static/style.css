@@ -1,8 +1,9 @@
 body {
     font-family: Helvetica;
-<<<<<<< HEAD
     background-image: linear-gradient(black, grey,black);
-=======
-    text-align: center
->>>>>>> 6ff00ea1f0e7f825368e09a4d1accc4034590f33
+    text-align: center;
+}
+
+h1 {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
