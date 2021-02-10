@@ -2,7 +2,11 @@ body {
     font-family: "Lucida Handwriting", Times, Cursive;
     font-family: Helvetica;
     background-image: linear-gradient(black, grey,black);
-    text-align: center
+    animation: myanimation 10s infinite;
+
+
+    
+    text-align: center;
 
     ;
  
@@ -13,9 +17,20 @@ h1{
     text-align: center;
     color:blue;
 }
+<<<<<<< HEAD
 .white{
     color: white;
 }
+=======
+ @keyframes myanimation {
+  0% {background: linear-gradient(-30deg, #b721ff 0%, #21d4fd 100%);}
+  25%{background: linear-gradient(162deg, rgba(255,175,126,1) 0%, rgba(130,50,209,1) 80%, rgba(104,44,228,1) 100%);}
+  50%{background: linear-gradient(125deg, rgba(4,97,203,1) 0%, rgba(16,230,255,1) 80%, rgba(15,228,254,1) 100%);}
+  75%{background: linear-gradient(135deg, rgba(218,27,96,1) 0%, rgba(242,98,34,1) 100%);}
+  100% {background: linear-gradient(124deg, rgba(195,55,100,1) 0%, rgba(41,39,112,1) 100%);}
+ }
+
+>>>>>>> bbb332becab5099601f5b0f1f63b870675dfcae4
 .eyesore {
     background-image: linear-gradient(#FF66CC, #ffff00);
     width: 50%;
