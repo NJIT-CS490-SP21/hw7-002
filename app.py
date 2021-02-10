@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 from flask import Flask, render_template
 
@@ -10,6 +12,7 @@ def index():
 
 app.run(
     port=int(os.getenv("PORT", "8080")),
-    host=os.getenv("IP", "0.0.0.0")
+    host=os.getenv("IP", "0.0.0.0"
+    
 )
 
