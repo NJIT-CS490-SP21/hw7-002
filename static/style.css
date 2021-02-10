@@ -1,3 +1,10 @@
 body {
     font-family: Helvetica;
 }
+
+.eyesore {
+    background-image: linear-gradient(#FF66CC, #ffff00);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
