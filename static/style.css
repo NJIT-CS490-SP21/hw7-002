@@ -1,7 +1,13 @@
 body {
     font-family: Helvetica;
     background-image: linear-gradient(black, grey,black);
+    text-align: center
+}
+
+h1{
+    color: white;
     text-align: center;
+    color:blue;
 }
 .white{
     color: white;
