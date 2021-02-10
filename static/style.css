@@ -25,7 +25,7 @@ h1{
 }
 h1 {
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-
+    
 }
 .title{
     text-align: center;
@@ -35,3 +35,8 @@ h1:hover{
     transform: scale(2);
     background-color: gold;
 }
+
+body {
+           background-image: url('https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg');
+
+        }
