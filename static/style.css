@@ -1,10 +1,21 @@
 body {
+    font-family: "Lucida Handwriting", Times, Cursive;
     font-family: Helvetica;
     background-image: linear-gradient(black, grey,black);
     animation: myanimation 10s infinite;
 
 
-    text-align: center
+    
+    text-align: center;
+
+    ;
+ 
+}
+
+h1{
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    color:blue;
 }
  @keyframes myanimation {
   0% {background: linear-gradient(-30deg, #b721ff 0%, #21d4fd 100%);}
@@ -19,11 +30,22 @@ body {
     width: 50%;
     text-align: center;
     margin: 0 auto;
+
 }
 h1 {
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-
+    
 }
 .title{
     text-align: center;
 }
+
+h1:hover{
+    transform: scale(2);
+    background-color: gold;
+}
+
+body {
+           background-image: url('https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg');
+
+        }
