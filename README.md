@@ -15,4 +15,8 @@
 
     # Start the Flask development web server
     python app.py
+
+## Check it out here
+http://cs490-sp21-002.herokuapp.com/
+
     
