@@ -44,6 +44,9 @@ h1:hover{
     transform: scale(2);
     background-color: gold;
 }
+.water{
+    color: #00FFFF;
+}
 
 body {
            background-image: url('https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg');
