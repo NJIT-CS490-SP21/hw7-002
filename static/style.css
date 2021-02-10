@@ -1,9 +1,13 @@
 body {
     font-family: Helvetica;
     background-image: linear-gradient(black, grey,black);
-    text-align: center
+    text-align: center;
 }
 
+h1 {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+
+}
 .title{
     text-align: center;
 }
