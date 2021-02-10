@@ -6,9 +6,11 @@ from flask import Flask, render_template
 app = Flask(__name__)
 app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
 
+bruh = 'https://i.pinimg.com/originals/08/5e/9f/085e9fa1ee1b67a3d338313c0b024061.png'
+
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", bruh = bruh)
 
 app.run(
     port=int(os.getenv("PORT", "8080")),
