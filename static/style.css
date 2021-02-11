@@ -3,9 +3,6 @@ body {
     font-family: Helvetica;
     background-image: linear-gradient(black, grey,black);
     animation: myanimation 10s infinite;
-
-
-    
     text-align: center;
 
     ;
@@ -52,3 +49,7 @@ body {
            background-image: url('https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg');
 
         }
+.text
+{
+    color: black;
+}
