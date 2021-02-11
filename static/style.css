@@ -1,11 +1,18 @@
 body {
+    font-family: "Lucida Handwriting", Times, Cursive;
     font-family: Helvetica;
-<<<<<<< HEAD
     background-image: linear-gradient(black, grey,black);
-       animation: myanimation 10s infinite;
-=======
-    text-align: center
->>>>>>> 6ff00ea1f0e7f825368e09a4d1accc4034590f33
+    animation: myanimation 10s infinite;
+    text-align: center;
+
+    ;
+ 
+}
+
+h1{
+    font-family: OCR A Std, monospace;
+    text-align: center;
+    color:blue;
 }
  @keyframes myanimation {
   0% {background: linear-gradient(-30deg, #b721ff 0%, #21d4fd 100%);}
@@ -13,4 +20,36 @@ body {
   50%{background: linear-gradient(125deg, rgba(4,97,203,1) 0%, rgba(16,230,255,1) 80%, rgba(15,228,254,1) 100%);}
   75%{background: linear-gradient(135deg, rgba(218,27,96,1) 0%, rgba(242,98,34,1) 100%);}
   100% {background: linear-gradient(124deg, rgba(195,55,100,1) 0%, rgba(41,39,112,1) 100%);}
+ }
+
+.eyesore {
+    background-image: linear-gradient(#FF66CC, #ffff00);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+h1 {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    
+}
+.title{
+    text-align: center;
+}
+
+h1:hover{
+    transform: scale(2);
+    background-color: gold;
+}
+.water{
+    color: #00FFFF;
+}
+
+body {
+           background-image: url('https://www.plm.automation.siemens.com/media/global/en/is-820219790-640x360_tcm27-49149.jpg');
+
+        }
+.text
+{
+    color: black;
 }
